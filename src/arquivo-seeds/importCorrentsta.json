@@ -1,0 +1,225 @@
+[
+  {
+    "agencia": "0118",
+      "conta": "000437843807",
+      "saldo": "2500",
+      "ativo": true,
+      "nome": "Maria das Graças",
+      "email": "m.gracas@a30.com",
+      "cpf": "38010426008",
+      "senha": "123456",
+      "validacao": "1234"
+  },
+  {
+      "agencia": "1207",
+      "conta": "000002341131",
+      "saldo": "3200",
+      "ativo": true,
+      "nome": "Edvanderson Barbosa Lisboa",
+      "email": "e.lisboa@a30.com",
+      "cpf": "38010426008",
+      "senha": "123456",
+      "validacao": "1234"
+    }, {
+      "agencia": "0415",
+      "conta": "000483845518",
+      "saldo": "4500",
+      "ativo": true,
+      "nome": "Emersom Marque Da Silva",
+      "email": "e.marques@a30.com",
+      "cpf": "85454874019",
+      "senha": "123456",
+      "validacao": "1234"
+    }, {
+      "agencia": "8849",
+      "conta": "000000957686",
+      "saldo": "1500",
+      "ativo": true,
+      "nome": "Mariana Marque Da Silva",
+      "email": "m.silva@a30.com",
+      "cpf": "28463087051",
+      "senha": "123456",
+      "validacao": "1234"
+    }, {
+      "agencia": "5922",
+      "conta": "000010986480",
+      "saldo": "2500",
+      "ativo": true,
+      "nome": "Jessica Mariana Albert",
+      "email": "j.mariana@a30.com",
+      "cpf": "83994719097",
+      "senha": "123456",
+      "validacao": "1234"
+    }, {
+      "agencia": "0510",
+      "conta": "000019445127",
+      "saldo": "6000",
+      "ativo": true,
+      "nome": "Marcia Maria",
+      "email": "m.maria@a30.com",
+      "cpf": "68947824070",
+      "senha": "123456",
+      "validacao": "1234"
+    }, {
+      "agencia": "0634",
+      "conta": "000012582379",
+      "saldo": "2500",
+      "ativo": true,
+      "nome": "Suely Marcela Andrade",
+      "email": "s.andrade@a30.com",
+      "cpf": "45721421061",
+      "senha": "123456",
+      "validacao": "1234"
+    }, {
+      "agencia": "9188",
+      "conta": "044682400975",
+      "saldo": "2500",
+      "ativo": true,
+      "nome": "Marcelino Pao e Vinho",
+      "email": "m.pao@a30.com",
+      "cpf": "52510637096",
+      "senha": "123456",
+      "validacao": "1234"
+    }, {
+      "agencia": "1682",
+      "conta": "000376573064",
+      "saldo": "1500",
+      "ativo": true,
+      "nome": "Thanos da Silva Pereira",
+      "email": "t.pereina@a30.com",
+      "cpf": "097579033020",
+      "senha": "123456",
+      "validacao": "1234"
+    }, {
+      "agencia": "9188",
+      "conta": "000093603346",
+      "saldo": "2500",
+      "ativo": true,
+      "nome": "Bahama da Silva Chopp Junior",
+      "email": "b.chopp@a30.com",
+      "cpf": "74973093076",
+      "senha": "123456",
+      "validacao": "1234"
+    },{
+      "agencia": "9188",
+      "conta": "000014700943",
+      "saldo": "2500",
+      "ativo": true,
+      "nome": "Pirassununga Limoeiro Cachaça",
+      "email": "p.cachaça@a30.com",
+      "cpf": "80428661009",
+      "senha": "123456",
+      "validacao": "1234"
+    },{
+      "agencia": "9188",
+      "conta": "00007468553",
+      "saldo": "2500",
+      "ativo": true,
+      "nome": "Josiane Calypso da Silva",
+      "email": "j.calypson@a30.com",
+      "cpf": "43684506044",
+      "senha": "123456",
+      "validacao": "1234"
+    },{
+      "nome": "Roberta Shields",
+      "email": "fitzgeraldgreen@eweville.com",
+      "conta": "000000438928",
+      "cpf": "84290276024",
+      "saldo": 2100,
+      "ativo": true,
+      "agenacia": "3415",
+      "senha": "123459",
+      "validacao": "1237"
+   },{
+      "nome": "Blevins Finch",
+      "email": "franklinlong@magnafone.com",
+      "conta": "000010869646",
+      "cpf": "69500169053",
+      "saldo": 3600,
+      "ativo": true,
+      "agenacia": "3415",
+      "senha": "123458",
+      "validacao": "1261"
+   },{
+      "nome": "Lea Velazquez",
+      "email": "corrinekidd@zilla.com",
+      "conta": "2467194",
+      "cpf": "37079187001",
+      "saldo": 2300,
+      "ativo": true,
+      "agenacia": "1207",
+      "senha": "123602",
+      "validacao": "1261"
+   }, {
+      "nome": "Dee Dickerson",
+      "email": "mcmahoncleveland@skybold.com",
+      "conta": "431011783",
+      "cpf": "34150681023",
+      "saldo": "2500",
+      "ativo": true,
+      "agenacia": "5922",
+      "senha": "123490",
+      "validacao": "1281"
+   },{
+      "nome": "Maritza Reid",
+      "email": "evepacheco@comtrak.com",
+      "conta": "14218807",
+      "cpf": "51825345074",
+      "saldo": 1800,
+      "ativo": true,
+      "agenacia": "1682",
+      "senha": "123480",
+      "validacao": "1312"
+   }, {
+      "nome": "Stefanie Mcfadden",
+      "email": "mccoyreese@cablam.com",
+      "conta": "139676616",
+      "cpf":" 28610453022",
+      "saldo": 2000,
+      "ativo": true,
+      "agenacia": "9188",
+      "senha": "123400",
+      "validacao": "1236"
+   }, {
+      "nome": "Amelia Hobbs",
+      "email": "susanamoon@geekwagon.com",
+      "conta": "7568517",
+      "cpf": "80132848082",
+      "saldo": 4200,
+      "ativo": true,
+      "agenacia": "2118",
+      "senha": "123480",
+      "validacao": "1312"
+   }, {
+      "nome": "Robert Orr",
+      "email": "latonyarodriquez@apexia.com",
+      "conta": "657075",
+      "cpf": "58556220029",
+      "saldo": 1800,
+      "ativo": true,
+      "agenacia": "1682",
+      "senha": "123400",
+      "validacao": "1235"
+   }, {
+      "nome": "Judith Sherman",
+      "email": "orrfinley@isosphere.com",
+      "conta": "12800171",
+      "cpf": "99954474013",
+      "saldo": 4500,
+      "ativo": true,
+      "agenacia": "5922",
+      "senha": "123602",
+      "validacao": "1281"
+   },{
+      "nome": "Jeannie Allen",
+      "email": "krystalhernandez@sensate.com",
+      "conta": "1362526",
+      "cpf":"33681981060",
+      "saldo": 1800,
+      "ativo": true,
+      "agenacia": "2118",
+      "senha": "123501",
+      "validacao":" 1237"
+   }
+    
+  ]

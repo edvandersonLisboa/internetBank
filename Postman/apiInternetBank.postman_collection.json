@@ -1,0 +1,291 @@
+{
+	"info": {
+		"_postman_id": "72d752c8-c432-49b8-a32f-fe2cab4f6034",
+		"name": "apiInternetBank",
+		"description": "Api Avanade internetBank GamaAcademy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Extrato",
+			"item": [
+				{
+					"name": "extrato",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfdmFsaWRhY2FvIjoiMTIzNCIsImNvbnRhIjoiMTY3ODE5ODcyNTY3IiwiZGF0YSI6IjIwMjAtMDItMTJUMTc6MTU6MDMuMzM4WiIsImlhdCI6MTU4MTUyNzcwMywiZXhwIjoxNTgxNjE0MTAzfQ.cGkqW6PwlYcXgeIo-fhgBT9T40WEpum4FZYc8W2ukGU",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "hash",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/extrato/:hashTransacao",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"extrato",
+								":hashTransacao"
+							],
+							"variable": [
+								{
+									"key": "hashTransacao",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "rotas de extratos",
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Rotas Login e autenticaçoes",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \r\n    \"cpf\":\"97287997215\",\r\n\t\"senha\":\"123456\"\r\n   \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/autorizacao/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"autorizacao",
+								""
+							]
+						},
+						"description": "gerador de token para o login"
+					},
+					"response": []
+				},
+				{
+					"name": "ValidacaoToken",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im0uZ3JhY2FzQGEzMC5jb20iLCJkYXRhIjoiMjAyMC0wMi0xMlQwNDo0NjozMC4zMjRaIiwiY3BmRm9ybWF0IjoiOTcyLjg3OS45NzItMTUiLCJzZW5oYSI6IjEyMzQ1NiIsImlhdCI6MTU4MTQ4Mjc5MCwiZXhwIjoxNTgxNTY5MTkwfQ.pQX3wiklQ7xgX5UU_kzjb1BzpqD-Tcgc3X-0IFWs44U",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"conta\":\"167819872567\",\n\t\"validacao\":\"1234\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/autorizacao/validacao",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"autorizacao",
+								"validacao"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Rota criaçao de novo Usuario",
+			"item": [
+				{
+					"name": "criarUsuarios",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n      \"agencia\": \"9199\",\r\n      \"conta\": \"491244321581\",\r\n      \"saldo\": \"4500\",\r\n      \"ativo\": true,\r\n      \"nome\": \"Emerson Marque Da Silva\",\r\n      \"email\": \"Earques@a30.com\",\r\n      \"cpf\": \"83888309026\",\r\n      \"senha\": \"123456\",\r\n      \"validacao\": \"1234\"\r\n    }\r\n    \r\n    ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/conta/cadastro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"conta",
+								"cadastro"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Rota Transferências",
+			"item": [
+				{
+					"name": "TransferênciaCadastro",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfdmFsaWRhY2FvIjoiMTIzNCIsImlhdCI6MTU4MTM5ODIwNywiZXhwIjoxNTgxNDg0NjA3fQ.bl8ltnQtj47qjCowj2odS4bmokIRCYsa1f6uswi1_Sg",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n \"conta_env\":\"167819872567\",\n \"conta_receb\":\"278922198367\",,\n \"descricao\":\"pagamento \",\n \"valor\": 300\n }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/transferencias/cadastro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"transferencias",
+								"cadastro"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ListaTransferencia",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-access-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfdmFsaWRhY2FvIjoiMTIzNCIsImNvbnRhIjoiMTY3ODE5ODcyNTY3IiwiZGF0YSI6IjIwMjAtMDItMTJUMDQ6NTc6MjEuMjY4WiIsImlhdCI6MTU4MTQ4MzQ0MSwiZXhwIjoxNTgxNTY5ODQxfQ.sry7_r-Rch5-q_f0nVZJkcToIrsMzM2WQBsM-mKwcpA",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"conta\":\"167819872567\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/transferencias/lista",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"transferencias",
+								"lista"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
